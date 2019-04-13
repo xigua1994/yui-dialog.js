@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YUI Dialog</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #app{
+      height: 1000px;
+    }
+    .btn-container{
+      margin:10px;
+      height: 40px;
+      background-color: #f8f8f8;
+      border-radius:4px;
+      -webkit-tap-highlight-color:transparent;
+    }
+    .btn-container .btn{
+      display: flex;
+      height: 100%;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div id="app">
+      <div class="btn-container yui-border-1px">
+        <span class="btn toast-btn">Toast</span>
+      </div>
+      <div class="btn-container yui-border-1px">
+        <span class="btn confirm-btn">Confirm</span>
+      </div>
+      <div class="btn-container yui-border-1px">
+        <span class="btn popup-btn">Popup</span>
+      </div>
+      <div class="btn-container yui-border-1px">
+        <span class="btn actionsheet-btn">ActionSheet</span>
+      </div>
+    </div>
+  </body>
+</html>
